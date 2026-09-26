@@ -225,3 +225,22 @@ The testing phase can be considered complete when:
 Open defects do not automatically mean testing is incomplete.
 They must be documented, fixed when prioritized, retested, and included
 in regression testing.
+## Current Status
+
+Manual, API, permission, integration, and end-to-end testing have been
+completed.
+
+The Playwright automation suite currently contains 11 automated test
+scenarios. In the latest Chromium execution:
+
+- 10 tests passed
+- 1 test requires an automation locator adjustment (AUTO-007)
+
+Three confirmed application defects remain open:
+
+- BUG-001 — Unauthorized public self-registration
+- BUG-002 — Supervisor cannot load assignable users
+- BUG-003 — Inconsistent task status display
+
+The defects are documented for future fixing, retesting, and regression
+testing.
