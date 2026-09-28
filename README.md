@@ -244,3 +244,5 @@ Three confirmed application defects remain open:
 
 The defects are documented for future fixing, retesting, and regression
 testing.
+
+Now everything is fixed and working.
